@@ -3,12 +3,21 @@ a, p, li, button, input
 	font-family: sans-serif;
 }
 
-li { display: inline;
-list-style-type: none;
-margin:0;
+li
+{
+	display: inline;
+	list-style-type: none;
+	margin:0;
 }
 
-footer {
+nav
+{
+	text-align: right;
+	margin-right: 15px;
+}
+
+footer
+{
    position:fixed;
    bottom:0;
 	 left: 0px;
@@ -17,8 +26,20 @@ footer {
 	 background-color: #F2F2F2;
 	 border-top: 1px solid;
 	 border-color: #E1E1E1;
+ }
+
+ a
+ {
+ 	text-decoration: none;
+ 	color: #454545;
 
  }
+
+ a:hover
+ {
+ 	text-decoration: underline;
+ }
+
 .top-button
 {
 	background-color: #4285F9;
@@ -26,14 +47,15 @@ footer {
 	border-radius: 2px;
 	border: none;
 	outline: none;
-	padding: 7px 17px 7px 17px;
-	font-size: 12px;
+	padding: 7px 15px 7px 15px;
+	font-size: 13px;
 	font-weight: bold;
-
 }
-.top-button:on-click
+
+.top-button:active
 {
-	background-color: #4890FF;
+	box-shadow: 0px -2px #094ACE;
+	background-color: #4468CC;
 	color: #FFFFFF;
 	border-radius: 2px;
 	border: none;
@@ -67,46 +89,33 @@ footer {
 	margin: 10px;
 }
 
-.para{
-	margin: 30px;
-	color: #585858;
-	font-size: 12px;
-}
-
-
-.search_bar{
+.search_bar
+{
 	position: relative;
-	margin: 30px;
+	margin: 20px;
 }
 
-.search_bar input{
-box-shadow: 3px 3px 3px #E1E1E1;
-width: 550px;
-height: 30px;
-font-size: 17px;
-border: solid;
-border-width: 1px;
-border-color: #E1E1E1;
+.search_bar input
+{
+	box-shadow: 1px 2px 3px #E1E1E1;
+	width: 580px;
+	height: 40px;
+	font-size: 17px;
+	border: solid;
+	border-width: 1px;
+	border-color: #E1E1E1;
 }
 
-a
-{text-decoration: none;
-	color: #454545;
-
-}
-
-a:hover{
-	text-decoration: underline;
-}
-
-.right-bottom{
+.right-bottom
+{
 	 float: right;
 	display: flex;
 	justify-content: space-between;
 	margin-right: 20px;
 }
 
-.left-bottom{
+.left-bottom
+{
 	float: left;
 	display: flex;
 	justify-content: space-between;
@@ -120,40 +129,49 @@ a:hover{
 	text-align: center;
 	margin-top: 11%;
 }
-.top{
+
+.top
+{
 	font-size: 13px;
 }
-.top:hover{
+
+.top:hover
+{
 	text-decoration: underline;
 }
-.square{
+
+.square
+{
 	vertical-align: middle;
 }
-.menu {
-	padding: 10px;
+
+.menu
+{
+	padding: 7px;
+
 }
 
-.text-bottom{
+.text-bottom
+{
 margin: 10px;
 	color: #585858;
 	font-size: 13px;
 }
 
-.blue{
+.blue
+{
 	color: blue;
 }
-.special{
+.special
+{
 	margin-left: 30px;
+
 		color: #585858;
 		font-size: 13px;
 }
-.first-bottom{
+
+.first-bottom
+{
 	border-bottom: 1px solid;
 	border-color: #E1E1E1;
-
-
-}
-
-nav {
-text-align: right;
 }
