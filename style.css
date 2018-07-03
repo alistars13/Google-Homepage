@@ -4,6 +4,12 @@ li { display: inline;
 list-style-type: none;
 }
 
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+ }
+
 .top-button
 {
 	background-color: #4285F9;
@@ -41,7 +47,7 @@ a
 	display: block;
 	margin: auto;
 	text-align: center;
-
+	margin-top: 10%;
 }
 
 .menu {
