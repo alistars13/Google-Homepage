@@ -1,5 +1,6 @@
-html{
-	font-family: verdana;
+a, p, li, button, input
+{
+	font-family: sans-serif;
 }
 
 li { display: inline;
@@ -14,6 +15,8 @@ footer {
    width:100%;
 	 height: 80px;
 	 background-color: #F2F2F2;
+	 border-top: 1px solid;
+	 border-color: #E1E1E1;
 
  }
 .top-button
@@ -23,7 +26,9 @@ footer {
 	border-radius: 2px;
 	border: none;
 	outline: none;
-	padding: 7px 15px 7px 15px;
+	padding: 7px 17px 7px 17px;
+	font-size: 12px;
+	font-weight: bold;
 
 }
 .top-button:on-click
@@ -39,53 +44,73 @@ footer {
 .center-button
 {
 	background-color: #F2F2F2;
-	color: #454545;
+	color: #858585;
 	border-radius: 2px;
 	border: none;
 	outline: none;
-	padding: 7px 15px 7px 15px;
+	padding: 10px 20px 10px 20px;
 	margin: 10px;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 .center-button:hover{
 	background-color: #F2F2F2;
-	color: black;
+	color: #252525;
 	border-radius: 2px;
 	box-shadow: 0px 2px 2px #F2F2F2;
 	border-style: solid;
 	border-width: 1px;
-	border-color: #777;
+	border-color: #E1E1E1;
 	outline: none;
-	padding: 7px 15px 7px 15px
+	padding: 10px 20px 10px 20px
 	margin: 10px;
 }
 
 .para{
-	margin: 10px;
+	margin: 30px;
+	color: #585858;
+	font-size: 12px;
 }
 
-input {
-	width: 544px;
-	height: 35px;
-	margin: 15px;
+
+.search_bar{
+	position: relative;
+	margin: 30px;
 }
 
+.search_bar input{
+box-shadow: 3px 3px 3px #E1E1E1;
+width: 550px;
+height: 30px;
+font-size: 17px;
+border: solid;
+border-width: 1px;
+border-color: #E1E1E1;
+}
 
 a
 {text-decoration: none;
-	color: #000;
+	color: #454545;
 
 }
+
+a:hover{
+	text-decoration: underline;
+}
+
 .right-bottom{
 	 float: right;
 	display: flex;
 	justify-content: space-between;
+	margin-right: 20px;
 }
 
 .left-bottom{
 	float: left;
 	display: flex;
 	justify-content: space-between;
+	margin-left: 20px;
 }
 
 .center
@@ -95,16 +120,38 @@ a
 	text-align: center;
 	margin-top: 11%;
 }
-
+.top{
+	font-size: 13px;
+}
+.top:hover{
+	text-decoration: underline;
+}
+.square{
+	vertical-align: middle;
+}
 .menu {
 	padding: 10px;
 }
 
 .text-bottom{
-	margin: 10px;
+margin: 10px;
+	color: #585858;
+	font-size: 13px;
 }
-.bottom{
-	margin: 15px;
+
+.blue{
+	color: blue;
+}
+.special{
+	margin-left: 30px;
+		color: #585858;
+		font-size: 13px;
+}
+.first-bottom{
+	border-bottom: 1px solid;
+	border-color: #E1E1E1;
+
+
 }
 
 nav {
